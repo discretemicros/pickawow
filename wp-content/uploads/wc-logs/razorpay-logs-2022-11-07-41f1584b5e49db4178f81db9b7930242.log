@@ -1,0 +1,25 @@
+2022-11-07T10:13:25+00:00 INFO Called process_payment with params order_id 590
+2022-11-07T10:13:25+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 590
+2022-11-07T10:13:29+00:00 INFO Updating razorpay webhook
+2022-11-07T10:13:31+00:00 INFO getRazorpayPaymentParams 590
+2022-11-07T10:13:31+00:00 INFO createOrGetRazorpayOrderId 590 and is1ccCheckout is set to no
+2022-11-07T10:13:31+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 590 and is_magic_checkout_order is set to no
+2022-11-07T10:13:31+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id590
+2022-11-07T10:13:31+00:00 INFO Called createRazorpayOrderId with params orderId 590 and sessionKey razorpay_order_id590
+2022-11-07T10:13:31+00:00 INFO Called getOrderCreationData with params orderId 590
+2022-11-07T10:13:31+00:00 INFO Called getOrderCreationData with params orderId 590 and is1ccOrder is set to no
+2022-11-07T10:13:31+00:00 INFO For order 590
+2022-11-07T10:13:31+00:00 INFO {"receipt":590,"amount":59900,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"590"}}
+2022-11-07T10:13:33+00:00 INFO For order session key razorpay_order_id590
+2022-11-07T10:14:20+00:00 INFO Called check_razorpay_response: wc_order_VC7vjLea3yRho
+2022-11-07T10:14:20+00:00 INFO Get order id in check_razorpay_response: orderId 590
+2022-11-07T10:14:20+00:00 INFO verifySignature orderId: 590
+2022-11-07T10:14:20+00:00 INFO verifySignature attr
+2022-11-07T10:14:20+00:00 INFO {"razorpay_payment_id":"pay_Kd707aaDtpwxLZ","razorpay_signature":"b368e8b0fdb9f3e0fe00342b529d731a5864b896ca0e215afd02c4206f1f735c","razorpay_order_id":"order_Kd6zPOwe0cLoAa"}
+2022-11-07T10:14:20+00:00 INFO updateOrder orderId: 590 , razorpayPaymentId: pay_Kd707aaDtpwxLZ , success: 1
+2022-11-07T10:14:20+00:00 INFO Order details check initiated step 1 for the orderId: 590
+2022-11-07T10:14:20+00:00 INFO Woocommerce orderId: 590 processed through callback
+2022-11-07T10:21:45+00:00 INFO Woocommerce orderId: 590 webhook process intitiated
+2022-11-07T10:21:45+00:00 INFO Woocommerce orderId: 590 webhook process intitiated for payment authorized event
+2022-11-07T10:21:46+00:00 INFO Woocommerce orderId: 590 order status: completed
+2022-11-07T10:21:46+00:00 INFO Woocommerce orderId: 590 webhook process exited with need payment status :

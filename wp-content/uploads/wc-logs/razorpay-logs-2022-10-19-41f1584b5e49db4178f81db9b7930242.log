@@ -1,0 +1,25 @@
+2022-10-19T11:08:13+00:00 INFO Called process_payment with params order_id 469
+2022-10-19T11:08:13+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 469
+2022-10-19T11:08:17+00:00 INFO Updating razorpay webhook
+2022-10-19T11:08:19+00:00 INFO getRazorpayPaymentParams 469
+2022-10-19T11:08:19+00:00 INFO createOrGetRazorpayOrderId 469 and is1ccCheckout is set to no
+2022-10-19T11:08:19+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 469 and is_magic_checkout_order is set to no
+2022-10-19T11:08:19+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id469
+2022-10-19T11:08:19+00:00 INFO Called createRazorpayOrderId with params orderId 469 and sessionKey razorpay_order_id469
+2022-10-19T11:08:19+00:00 INFO Called getOrderCreationData with params orderId 469
+2022-10-19T11:08:19+00:00 INFO Called getOrderCreationData with params orderId 469 and is1ccOrder is set to no
+2022-10-19T11:08:19+00:00 INFO For order 469
+2022-10-19T11:08:19+00:00 INFO {"receipt":469,"amount":59900,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"469"}}
+2022-10-19T11:08:21+00:00 INFO For order session key razorpay_order_id469
+2022-10-19T11:08:59+00:00 INFO Called check_razorpay_response: wc_order_dgT6FCCx8IrNo
+2022-10-19T11:08:59+00:00 INFO Get order id in check_razorpay_response: orderId 469
+2022-10-19T11:08:59+00:00 INFO verifySignature orderId: 469
+2022-10-19T11:08:59+00:00 INFO verifySignature attr
+2022-10-19T11:08:59+00:00 INFO {"razorpay_payment_id":"pay_KVbmaJ1VbBXxAQ","razorpay_signature":"2dafd0164140834d9422a7dcf3d2d7d4a51968c436efc3cc70a49c847d63660e","razorpay_order_id":"order_KVbm0WPfrEJoAF"}
+2022-10-19T11:08:59+00:00 INFO updateOrder orderId: 469 , razorpayPaymentId: pay_KVbmaJ1VbBXxAQ , success: 1
+2022-10-19T11:08:59+00:00 INFO Order details check initiated step 1 for the orderId: 469
+2022-10-19T11:08:59+00:00 INFO Woocommerce orderId: 469 processed through callback
+2022-10-19T11:14:04+00:00 INFO Woocommerce orderId: 469 webhook process intitiated
+2022-10-19T11:14:04+00:00 INFO Woocommerce orderId: 469 webhook process intitiated for payment authorized event
+2022-10-19T11:14:04+00:00 INFO Woocommerce orderId: 469 order status: processing
+2022-10-19T11:14:04+00:00 INFO Woocommerce orderId: 469 webhook process exited with need payment status :

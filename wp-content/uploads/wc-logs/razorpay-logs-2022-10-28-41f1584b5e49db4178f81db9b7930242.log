@@ -1,0 +1,21 @@
+2022-10-28T03:01:02+00:00 ERROR The api key provided by you has expired and cannot be used. Please use correct key and secret.
+2022-10-28T03:50:10+00:00 ERROR The api key provided by you has expired and cannot be used. Please use correct key and secret.
+2022-10-28T05:55:17+00:00 ERROR The api key provided by you has expired and cannot be used. Please use correct key and secret.
+2022-10-28T08:24:44+00:00 ERROR The api key provided by you has expired and cannot be used. Please use correct key and secret.
+2022-10-28T09:18:09+00:00 INFO Called process_payment with params order_id 558
+2022-10-28T09:18:09+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 558
+2022-10-28T09:18:11+00:00 ERROR {"message":"The api key provided by you has expired and cannot be used. Please use correct key and secret."}
+2022-10-28T09:18:11+00:00 INFO getRazorpayPaymentParams 558
+2022-10-28T09:18:11+00:00 INFO createOrGetRazorpayOrderId 558 and is1ccCheckout is set to no
+2022-10-28T09:18:11+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 558 and is_magic_checkout_order is set to no
+2022-10-28T09:18:11+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id558
+2022-10-28T09:18:11+00:00 INFO Called createRazorpayOrderId with params orderId 558 and sessionKey razorpay_order_id558
+2022-10-28T09:18:11+00:00 INFO Called getOrderCreationData with params orderId 558
+2022-10-28T09:18:11+00:00 INFO Called getOrderCreationData with params orderId 558 and is1ccOrder is set to no
+2022-10-28T09:18:11+00:00 INFO For order 558
+2022-10-28T09:18:11+00:00 INFO {"receipt":558,"amount":59900,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"558"}}
+2022-10-28T10:07:54+00:00 ERROR The api key provided by you has expired and cannot be used. Please use correct key and secret.
+2022-10-28T10:34:49+00:00 ERROR The api key provided by you has expired and cannot be used. Please use correct key and secret.
+2022-10-28T11:30:41+00:00 ERROR The api key provided by you has expired and cannot be used. Please use correct key and secret.
+2022-10-28T13:13:11+00:00 ERROR The api key provided by you has expired and cannot be used. Please use correct key and secret.
+2022-10-28T13:13:15+00:00 ERROR The api key provided by you has expired and cannot be used. Please use correct key and secret.
