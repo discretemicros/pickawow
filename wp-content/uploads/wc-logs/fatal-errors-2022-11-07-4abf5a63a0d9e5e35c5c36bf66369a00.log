@@ -1,0 +1,18 @@
+2022-11-07T08:35:42+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /home/u219031756/domains/pickawow.com/public_html/wp-content/plugins/dm-custom-code/dm-custom-code.php:125
+Stack trace:
+#0 /home/u219031756/domains/pickawow.com/public_html/wp-includes/shortcodes.php(355): dm_get_form_details('', '', 'dm_get_form_det...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/u219031756/domains/pickawow.com/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(dm_get...', 'do_shortcode_ta...', '[dm_get_form_de...')
+#3 /home/u219031756/domains/pickawow.com/public_html/wp-includes/class-wp-hook.php(308): do_shortcode('[dm_get_form_de...')
+#4 /home/u219031756/domains/pickawow.com/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters('[dm_get_form_de...', Array)
+#5 /home/u219031756/domains/pickawow.com/public_html/wp-content/themes/Divi/includes/builder/template-preview.php(74): apply_filters('the_content', '[dm_get_form_de...')
+#6 /home/u219031756/domains/pickawow.com/public_html/ in /home/u219031756/domains/pickawow.com/public_html/wp-content/plugins/dm-custom-code/dm-custom-code.php on line 125
+
+2022-11-07T23:01:29+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /home/u219031756/domains/pickawow.com/public_html/wp-content/themes/Divi/includes/builder/feature/woocommerce-modules.php:1095
+Stack trace:
+#0 /home/u219031756/domains/pickawow.com/public_html/wp-content/themes/Divi/includes/builder/module/woocommerce/CartNotice.php(1011): et_builder_wc_render_module_template('woocommerce_out...', Array)
+#1 /home/u219031756/domains/pickawow.com/public_html/wp-content/themes/Divi/includes/builder/module/woocommerce/CartNotice.php(1158): ET_Builder_Module_Woocommerce_Cart_Notice::get_cart_notice(Array)
+#2 /home/u219031756/domains/pickawow.com/public_html/wp-content/themes/Divi/includes/builder/class-et-builder-element.php(3331): ET_Builder_Module_Woocommerce_Cart_Notice->render(Array, '', 'et_pb_wc_cart_n...', '', '', '', '', '')
+#3 /home/u219031756/domains/pickawow.com/public_html/wp-includes/shortcodes.php(355): ET_Builder_Element->_render(Array, '', 'et_pb_wc_cart_n...')
+#4 [internal function]: do_shortcode_tag(Array in /home/u219031756/domains/pickawow.com/public_html/wp-content/themes/Divi/includes/builder/feature/woocommerce-modules.php on line 1095
+

@@ -1,0 +1,65 @@
+2022-10-13T18:03:13+00:00 INFO Called process_payment with params order_id 404
+2022-10-13T18:03:13+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 404
+2022-10-13T18:03:20+00:00 INFO Updating razorpay webhook
+2022-10-13T18:03:22+00:00 INFO getRazorpayPaymentParams 404
+2022-10-13T18:03:22+00:00 INFO createOrGetRazorpayOrderId 404 and is1ccCheckout is set to no
+2022-10-13T18:03:22+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 404 and is_magic_checkout_order is set to no
+2022-10-13T18:03:22+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id404
+2022-10-13T18:03:22+00:00 INFO Called createRazorpayOrderId with params orderId 404 and sessionKey razorpay_order_id404
+2022-10-13T18:03:22+00:00 INFO Called getOrderCreationData with params orderId 404
+2022-10-13T18:03:22+00:00 INFO Called getOrderCreationData with params orderId 404 and is1ccOrder is set to no
+2022-10-13T18:03:22+00:00 INFO For order 404
+2022-10-13T18:03:22+00:00 INFO {"receipt":404,"amount":59900,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"404"}}
+2022-10-13T18:03:24+00:00 INFO For order session key razorpay_order_id404
+2022-10-13T18:04:21+00:00 INFO Called check_razorpay_response: wc_order_AfIgHZrDj0KIO
+2022-10-13T18:04:21+00:00 INFO Get order id in check_razorpay_response: orderId 404
+2022-10-13T18:04:21+00:00 INFO verifySignature orderId: 404
+2022-10-13T18:04:21+00:00 INFO verifySignature attr
+2022-10-13T18:04:21+00:00 INFO {"razorpay_payment_id":"pay_KTLeZZB1pcQ9p7","razorpay_signature":"29e55dcb90fbf02e9b38d5d947078e52427e5923005f2f259f81ff966393d311","razorpay_order_id":"order_KTLdiQLxjOQK0D"}
+2022-10-13T18:04:21+00:00 INFO updateOrder orderId: 404 , razorpayPaymentId: pay_KTLeZZB1pcQ9p7 , success: 1
+2022-10-13T18:04:21+00:00 INFO Order details check initiated step 1 for the orderId: 404
+2022-10-13T18:04:22+00:00 INFO Woocommerce orderId: 404 processed through callback
+2022-10-13T18:09:59+00:00 INFO Woocommerce orderId: 404 webhook process intitiated
+2022-10-13T18:09:59+00:00 INFO Woocommerce orderId: 404 webhook process intitiated for payment authorized event
+2022-10-13T18:09:59+00:00 INFO Woocommerce orderId: 404 order status: processing
+2022-10-13T18:09:59+00:00 INFO Woocommerce orderId: 404 webhook process exited with need payment status :
+2022-10-13T18:12:27+00:00 INFO Woocommerce orderId: 404 webhook process intitiated
+2022-10-13T18:12:27+00:00 INFO Woocommerce orderId: 404 webhook process intitiated for payment authorized event
+2022-10-13T18:12:27+00:00 INFO Woocommerce orderId: 404 order status: processing
+2022-10-13T18:12:27+00:00 INFO Woocommerce orderId: 404 webhook process exited with need payment status :
+2022-10-13T18:15:44+00:00 INFO Woocommerce orderId: 404 webhook process intitiated
+2022-10-13T18:15:44+00:00 INFO Woocommerce orderId: 404 webhook process intitiated for payment authorized event
+2022-10-13T18:15:44+00:00 INFO Woocommerce orderId: 404 order status: processing
+2022-10-13T18:15:44+00:00 INFO Woocommerce orderId: 404 webhook process exited with need payment status :
+2022-10-13T18:21:39+00:00 INFO Woocommerce orderId: 404 webhook process intitiated
+2022-10-13T18:21:39+00:00 INFO Woocommerce orderId: 404 webhook process intitiated for payment authorized event
+2022-10-13T18:21:39+00:00 INFO Woocommerce orderId: 404 order status: processing
+2022-10-13T18:21:39+00:00 INFO Woocommerce orderId: 404 webhook process exited with need payment status :
+2022-10-13T18:33:33+00:00 INFO Woocommerce orderId: 404 webhook process intitiated
+2022-10-13T18:33:33+00:00 INFO Woocommerce orderId: 404 webhook process intitiated for payment authorized event
+2022-10-13T18:33:33+00:00 INFO Woocommerce orderId: 404 order status: processing
+2022-10-13T18:33:33+00:00 INFO Woocommerce orderId: 404 webhook process exited with need payment status :
+2022-10-13T18:57:15+00:00 INFO Woocommerce orderId: 404 webhook process intitiated
+2022-10-13T18:57:15+00:00 INFO Woocommerce orderId: 404 webhook process intitiated for payment authorized event
+2022-10-13T18:57:15+00:00 INFO Woocommerce orderId: 404 order status: processing
+2022-10-13T18:57:15+00:00 INFO Woocommerce orderId: 404 webhook process exited with need payment status :
+2022-10-13T19:43:47+00:00 INFO Woocommerce orderId: 404 webhook process intitiated
+2022-10-13T19:43:47+00:00 INFO Woocommerce orderId: 404 webhook process intitiated for payment authorized event
+2022-10-13T19:43:47+00:00 INFO Woocommerce orderId: 404 order status: processing
+2022-10-13T19:43:47+00:00 INFO Woocommerce orderId: 404 webhook process exited with need payment status :
+2022-10-13T21:09:29+00:00 INFO Woocommerce orderId: 404 webhook process intitiated
+2022-10-13T21:09:29+00:00 INFO Woocommerce orderId: 404 webhook process intitiated for payment authorized event
+2022-10-13T21:09:29+00:00 INFO Woocommerce orderId: 404 order status: processing
+2022-10-13T21:09:29+00:00 INFO Woocommerce orderId: 404 webhook process exited with need payment status :
+2022-10-13T21:48:55+00:00 ERROR The server did not send back a well-formed response. 
+Server Response: Array
+2022-10-13T21:48:57+00:00 ERROR The server did not send back a well-formed response. 
+Server Response: Array
+2022-10-13T21:49:21+00:00 ERROR The server did not send back a well-formed response. 
+Server Response: Array
+2022-10-13T21:49:22+00:00 ERROR The server did not send back a well-formed response. 
+Server Response: Array
+2022-10-13T21:58:42+00:00 ERROR The server did not send back a well-formed response. 
+Server Response: Array
+2022-10-13T21:58:43+00:00 ERROR The server did not send back a well-formed response. 
+Server Response: Array
